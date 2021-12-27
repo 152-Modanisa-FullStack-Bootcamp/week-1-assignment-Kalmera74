@@ -1,4 +1,82 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+
+
+body{
+  background: rgb(49,124,184);
+  background: linear-gradient(90deg, rgba(49,124,184,1) 0%, rgba(136,70,172,1) 100%); 
+  font-family: 'Roboto', sans-serif;
+
+  
+}
+.card{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+.card h1{
+  font-size: 35px;
+  color: black;
+  margin: auto;
+}
+
+.input-area{
+  width: 100%;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  
+  background-color: white;
+  outline: none;
+
+}
+
+
+.divider{
+  position: relative;
+  width: 115%;
+  height: 1px;
+  background-color: grey
+}
+.credentials{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  row-gap: 20px;
+}
+
+#forgot{
+width: 100%;
+color: grey;
+font-size: 12px;
+
+text-decoration: none;
+}
+
+#login{
+  width: 100%;
+  height: 40px;
+  background-color: #2691d9;
+  color: white;
+  font-size: 20px;
+  
+  border-radius: 50px;
+  border-style: hidden;
+  outline: none;
+}
+.sign-up{
+  width: 100%;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  column-gap: 5px;
 }
