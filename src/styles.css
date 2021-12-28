@@ -1,11 +1,10 @@
-
+*{
+  font-family: 'Gentleman-PersonalUse', sans-serif; /* personal use licensed */
+}
 
 body{
   background: rgb(49,124,184);
   background: linear-gradient(90deg, rgba(49,124,184,1) 0%, rgba(136,70,172,1) 100%); 
-  font-family: 'Roboto', sans-serif;
-
-  
 }
 .card{
   
@@ -14,11 +13,13 @@ body{
   align-items: center;
   width: 100%;
   height: 90vh;
+  
 }
 .card h1{
-  font-size: 35px;
+  font-size: 25px;
   color: black;
   margin: auto;
+  height: 25px;
 }
 
 .input-area{
@@ -27,18 +28,18 @@ body{
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: solid;
-  
+  border-bottom-color:#d6d6d6;
   background-color: white;
   outline: none;
-
+  color: #d6d6d6;
+  border-bottom-width: 3px;
 }
 
-
-.divider{
-  position: relative;
-  width: 115%;
+.divider{  
+  width: 27vw;
+  flex-grow: 1;
   height: 1px;
-  background-color: grey
+  background-color: #d6d6d6;
 }
 .credentials{
   display: flex;
@@ -47,16 +48,16 @@ body{
   align-items: center;
   width: 25vw;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 20px;
   row-gap: 20px;
+  box-shadow:0px 0px 25px 5px #00000024
 }
 
 #forgot{
 width: 100%;
-color: grey;
-font-size: 12px;
-
+color: #d6d6d6;
+font-size: 14px;
 text-decoration: none;
 }
 
@@ -66,10 +67,10 @@ text-decoration: none;
   background-color: #2691d9;
   color: white;
   font-size: 20px;
-  
   border-radius: 50px;
   border-style: hidden;
   outline: none;
+  cursor: pointer;
 }
 .sign-up{
   width: 100%;
@@ -79,4 +80,14 @@ text-decoration: none;
   align-items: center;
   padding: 20px;
   column-gap: 5px;
+}
+
+.sign-up a{
+  color: #2691d9;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sign-up p {
+  font-size: 14px;
 }
