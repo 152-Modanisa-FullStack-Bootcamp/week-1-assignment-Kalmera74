@@ -1,4 +1,6 @@
-h1 {
-  color: hotpink;
-  font-family: cursive;
+#app{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
 }
