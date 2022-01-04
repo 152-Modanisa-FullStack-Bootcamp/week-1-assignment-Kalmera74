@@ -42,7 +42,7 @@ body{
 
 .profiledetails{
   display: inline;
-  line-height: 0px;
+  line-height: 5px;
 }
 .profile > img {
   width: 50px;
@@ -64,8 +64,9 @@ body{
   background-color: #e0e0e0;
 }
 
-.description h3{
-  display: inline;
+.description *{
+  
+  margin: 0px;
 }
 
 .icons{
@@ -103,6 +104,7 @@ body{
   align-self: center;
   justify-content: space-between;
   width: 600px;
+  margin-top: 10px;
 }
 
 .footer{
